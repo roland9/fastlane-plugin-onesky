@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'onesky-ruby'
+  spec.add_dependency 'onesky-ruby', :git => 'https://github.com/niteshvijay1995/onesky-ruby.git', :branch => 'ruby2.4_support'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
