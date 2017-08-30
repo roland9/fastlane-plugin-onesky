@@ -5,7 +5,7 @@ require 'fastlane/plugin/onesky/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-onesky'
-  spec.version       = Fastlane::Onesky::VERSION
+  spec.version       = '0.2.1' # rolandg updated version manually
   spec.author        = %q{Daniel Kiedrowski}
   spec.email         = %q{daniel@levire.com}
 
